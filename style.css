@@ -1,11 +1,12 @@
 *{
-    margin: 0;
+    margin: 2px;
     box-sizing: border-box;
 }
 
 body{
     width: 1000px;
     margin: auto;
+    border: 1px solid black;
 }
 
 
@@ -38,4 +39,34 @@ a{
 
 .photo-description{
     font-size: 12px;
+}
+
+.important-text{
+    background-color: yellow;
+}
+
+.container{
+    margin: 15px 0;
+}
+
+ul{
+   padding-inline-start: 10px;
+}
+
+th{
+    width: 300px;
+    background-color: #4fa1ff;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.description{
+    width: 400px;
+}
+
+.lightblue{
+    background-color: lightblue;
 }
